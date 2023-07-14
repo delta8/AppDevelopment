@@ -8,7 +8,7 @@ The top-level definition of the Landmarks app.
 import SwiftUI
 
 @main
-struct ePsycheApp: App {
+struct LandmarksApp: App {
     @StateObject private var modelData = ModelData()
 
     var body: some Scene {
